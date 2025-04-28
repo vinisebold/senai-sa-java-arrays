@@ -16,8 +16,19 @@ public class Main {
             System.out.println("Qual o nome do vendedor " + (i + 1));
             nomesVendedores[i] = sc.next();
         }
-        for (int j = 0; j < nomesVendedores.length; j++) {
-            System.out.println("Nome[" + (j + 1) + "] " + nomesVendedores[j]);
+        //for (int j = 0; j < nomesVendedores.length; j++) {
+        //    System.out.println("Nome[" + (j + 1) + "] " + nomesVendedores[j]);
+        //}
+
+        Double[][] qntdVendas = new Double[qntdVendedores][5];
+
+        for (int i = 0; i < qntdVendedores; i++) {
+
+            System.out.println("Digite o valor de vendas de " + nomesVendedores[i]);
+            for (int j = 0; j < 5; j++) {
+                System.out.println("Dia " + j);
+                qntdVendas[i][j] = sc.nextDouble();
+            }
         }
     }
 }
