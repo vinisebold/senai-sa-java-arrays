@@ -1,3 +1,5 @@
+package SituaçãoAprendizagem;
+
 import java.util.Scanner;
 
 public class Main {
