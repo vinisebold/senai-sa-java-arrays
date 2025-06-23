@@ -1,4 +1,4 @@
-# SENAI - Situação de Aprendizagem (Arrays em Java)
+# SENAI - Situação de Aprendizagem
 
 Este repositório contém a resolução de uma Situação de Aprendizagem (SA) desenvolvida durante o curso de **Desenvolvimento de Sistemas integrado ao Ensino Médio** do SENAI. O foco principal do projeto é a aplicação prática de arrays (vetores e matrizes) em Java para manipulação e análise de dados.
 
